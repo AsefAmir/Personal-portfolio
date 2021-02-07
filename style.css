@@ -96,27 +96,34 @@
         padding: 100px 0;
     }
     
-    .inquiry {
-        width: 50%;
-        background-image: url(images/banner.png);
-        background-size: contain;
+    .container3 {
+        padding: 150px 0;
+        min-height: 100px;
+    }
+    
+    .inquiry-area {
+        width: 60%;
+        background-image: url("images/banner.png");
         background-repeat: no-repeat;
+        background-size: cover;
         overflow: hidden;
+        margin: auto;
         border-radius: 20px;
         background-position: center;
-        margin: auto;
     }
     
-    .inquiry h2 {
-        text-align: center;
-        margin-top: 150px;
-        font-size: 50px;
+    .inquiry-area h2 {
+        font-size: 45px;
         color: white;
+        margin-bottom: 30px;
+        padding-left: 50px;
+        margin-top: 110px;
     }
     
-    .inquiry-btn {
-        text-align: right;
-        margin-top: 170px;
-        padding-right: 80px;
-        float: right;
+    .inquiry-button {
+        margin-top: 125px;
+    }
+    
+    .footer {
+        text-align: center;
     }
